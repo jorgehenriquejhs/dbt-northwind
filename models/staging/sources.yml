@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: erp_northwind_011021
+    description: postgres database used by our client
+    tables:
+      - name: public_orders
+        columns:
+        - name: order_id
+          description: primary key
+      - name: public_order_details
+      - name: public_products
+      - name: public_shippers
+      - name: public_employees
+      - name: public_customers
+      - name: public_suppliers
